@@ -1,0 +1,34 @@
+<!DOCTYPE >
+<html>
+	<head>
+		<meta name="viewport" content="width=device-width, initial-scale=1" />
+		<link rel="stylesheet" href="movingRobot.css" />
+		   <script type="text/javascript" src="Javascript/robot.js"></script>
+	</head>
+	<body onload="initialcall();">
+		<div class="main">
+			<canvas id="myCanvas" width="300" height="300" ></canvas>
+			<div style="line-height: 20px">
+				&nbsp;
+			</div>
+			<div>
+				<span>Command: </span>
+				<input type="text" id="value" value="">
+				<input type="button" onclick="init(document.getElementById('value').value)" value="Command" />
+				<input type="button" onclick="init('report')" value="Report" style="float:right"/>
+				<br/>
+				<div class="buttonStyle">
+				<input type="button" onclick="init('left')" value="Left"/>
+				<input type="button" onclick="init('move')" value="Move"/>
+				<input type="button" onclick="init('right')" value="Right"/>
+				</div>
+				<span style="color:red" id="error"> </span>
+			</div>
+			
+			<div style="line-height: 5px">
+				&nbsp;
+			</div>
+			<div id="report" value="" ></div>
+
+		</div>
+	</body>
