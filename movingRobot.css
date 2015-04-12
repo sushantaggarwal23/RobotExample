@@ -1,0 +1,34 @@
+.main {
+	width: 400px;
+	height: 300px;
+	margin: 100px 0px 0px 400px;
+}
+
+#myCanvas {
+	background-color: #D68533;
+	margin-left: 40px;
+	border-radius: 5px;
+	box-shadow: 2px 2px 2px 2px gray;
+}
+
+input[type=text] {
+	margin-left: 5px;
+	margin-right: 10px;
+	border-radius: 1px;
+	box-shadow: 2px 2px 2px 2px gray;
+}
+
+input[type=button] {
+	background-color: green;
+	border: none;
+	height: 30px;
+	width: 70px;
+	border-radius: 5px;
+	color: white;
+	box-shadow: 1px 1px 1px gray;
+}
+
+.buttonStyle {
+	margin-top: 15px;
+	margin-left: 80px;
+}
