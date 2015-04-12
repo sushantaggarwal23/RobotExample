@@ -15,4 +15,5 @@ test('init', function() {
 		ok(init('place 2,2,east'), 'should activate towards east with co-ordinates x=2,y=2');
 		ok(init('place 6,6,north'), 'should not activate towards north with coordinate x=6,y=6 and should return false for test condition');
 		ok(!init('place 6,6,north'), 'should not activate towards north with coordinate x=6,y=6 and should return true for test condition');
+		
 });
