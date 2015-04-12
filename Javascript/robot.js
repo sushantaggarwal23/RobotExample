@@ -3,6 +3,7 @@ var position = {
 	x : 60,
 	y : 240,
 	d : "SOUTH"
+	
 },
     valueHolder = "",
     cordinateArray = "";
